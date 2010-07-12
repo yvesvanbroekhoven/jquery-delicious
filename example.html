@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>jQuery show Delicious feed of one user</title>
+  <script src="http://www.google.com/jsapi?key="></script>
+  <script type="text/javascript">
+    google.load("jquery", "1.4");
+    google.load("jqueryui", "1.8.1");
+  </script>
+  <script src="jquery.delicious.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(function(){
+      $('#delicious').delicious('yvesvanbroekhoven');
+    });
+    
+    function test(){
+      console.log('ges');
+    }
+  </script>
+</head>
+<body>
+<div id="delicious"></div>
+</body>
+</html>
