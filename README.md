@@ -7,4 +7,5 @@ $(selector).delicious('username', options);
 
 ## Params
 **username**: delicious username
+
 **options**: currently no options available
